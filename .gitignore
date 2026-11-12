@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# The app itself goes in a GitHub Release (Releases → Draft a new release), not in the repo:
+# GitHub refuses files over 100 MB and a repo full of binaries is slow to clone.
+*.dmg
+*.zip
+*.blockmap
+*.app/
+
+# Editors and tools
+.vscode/
+.idea/
+*.swp
+*~
+.claude/
+
+# Logs and temporary files
+*.log
+tmp/
+.cache/
+
+# Never commit secrets
+.env
+.env.*
+*.key
+*.pem
